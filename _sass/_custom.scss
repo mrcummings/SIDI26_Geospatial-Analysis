@@ -1,1 +1,15 @@
 /* add your tweaks here! */
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  border: 1px solid #dee2e6;
+  padding: 0.5rem 0.75rem;
+}
+
+thead {
+  background-color: #f8f9fa;
+}

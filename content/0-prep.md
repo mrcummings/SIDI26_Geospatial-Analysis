@@ -1,72 +1,16 @@
 ---
-title: Workshop Prep
+title: Before We Begin
 nav: Prep
-topics: GitHub; Optional Software
+topics: Accounts; Logins
 ---
+<svg xmlns="http://www.w3.org/2000/svg" width="220" height="220" fill="currentColor" viewBox="0 0 16 16" style="display:block;margin:1rem auto 1.5rem auto;">
+  <path d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0M2.04 4.326c.325 1.329 2.532 2.54 3.717 3.19.48.263.793.434.743.484q-.121.12-.242.234c-.416.396-.787.749-.758 1.266.035.634.618.824 1.214 1.017.577.188 1.168.38 1.286.983.082.417-.075.988-.22 1.52-.215.782-.406 1.48.22 1.48 1.5-.5 3.798-3.186 4-5 .138-1.243-2-2-3.5-2.5-.478-.16-.755.081-.99.284-.172.15-.322.279-.51.216-.445-.148-2.5-2-1.5-2.5.78-.39.952-.171 1.227.182.078.099.163.208.273.318.609.304.662-.132.723-.633.039-.322.081-.671.277-.867.434-.434 1.265-.791 2.028-1.12.712-.306 1.365-.587 1.579-.88A7 7 0 1 1 2.04 4.327Z"/>
+</svg>
 
-To create your own materials using `workshop-template-b`, please set up a free [GitHub account](https://github.com/join) if you do not have one already.
+In order to successfully participate in this morning's lesson, you must have and be logged into the following accounts:
 
-Basic familiarity with the GitHub web interface will be helpful.
-For a quick introduction check out GitHub's [Hello World guide](https://guides.github.com/activities/hello-world/), or the extensive [GitHub Learning Lab](https://lab.github.com/).
+- [Iowa State University ArcGIS Online Account](https://isugisf.maps.arcgis.com/){:target="_blank" rel="noopener"} (login using your ISU netID and password)
+- [Google Drive Account](https://workspace.google.com/products/drive/){:target="_blank" rel="noopener"}
+- [GitHub Account](https://github.com/){:target="_blank" rel="noopener"}
 
-This template works great using only GitHub's web interface for editing--you don't have to install anything!
-However, for more advanced uses you will want Git, Ruby, and Jekyll installed on your computer to do local development.
-
-{% capture text %}
-1. Have a [GitHub](https://github.com) account.
-2. *Very Optional:* have [Git](https://git-scm.com/), [Jekyll](https://jekyllrb.com/), and a nice [text editor](https://code.visualstudio.com/) installed.
-{% endcapture %}
-{% include card.html text=text header="Setup Overview" %}
-
-> *Tip:* for easier editing of your project in your browser, you can click `.` on any GitHub repository to [open the web editor](https://docs.github.com/en/codespaces/the-githubdev-web-based-editor) (which is a version of [Visual Studio Code](https://code.visualstudio.com/) editor)!
->
-> *Tip:* you could also use this template on GitLab or other hosting service. GitHub is handy for easily creating and sharing projects, however, it is not a dependency!
-
--------------
-
-## Local Jekyll Setup [very optional]
-
-If you want to develop and preview your website project on your local computer (or deploy it some where other than GitHub Pages), you will need to install Git version control and the static site generator [Jekyll](https://jekyllrb.com/).
-
-### Install Git
-
-[Git](https://git-scm.com/) is a [free](https://www.gnu.org/philosophy/free-sw.en.html), [distributed](https://en.wikipedia.org/wiki/Distributed_version_control) version control system. [GitHub](https://github.com/) is a Git repository hosting service, a place to store and sync your work in the cloud.
-Your GitHub project will be under Git version control, so you need the software on your machine. 
-
-- **Windows:** Install [Git for Windows](https://git-scm.com/downloads){:target="_blank" rel="noopener"} using the default options, *except* when setup asks you to choose the default editor used by Git, select "Use the Nano editor by default". This will give you Git, Git Bash, and Git GUI. Git Bash is a terminal that lets you use UNIX style commands and utilities on Windows, and will be used as your default terminal when working with Jekyll.
-- **Mac:** Mac systems will require the "Xcode Command Line Tools" installed, so open a terminal (to find your terminal search for "terminal" in your Spotlight), type in the command `xcode-select --install`, and follow the prompts. After the install finishes, try typing `git --version`. If you want a newer version of Git, download the official [Mac git installer](https://git-scm.com/downloads){:target="_blank" rel="noopener"}.
-- **Linux:** Install from your distribution's software center or package manager (for Ubuntu `sudo apt install git`).
-
-If you are interested in using a visual GUI application integrated with GitHub, Windows and Mac users should also install [GitHub Desktop](https://desktop.github.com/) using the default options.
-You can install GitHub Desktop in addition to other versions of Git.
-There are other [GUI apps available](https://git-scm.com/downloads/guis) for managing and visualizing Git repositories, including Linux options.
-
-### Install Ruby
-
-[Ruby](https://www.ruby-lang.org/en/){:target="_blank" rel="noopener"} is a open source programming language popular with web applications.
-**_You do not need to know anything about Ruby_**, but you do need it to run Jekyll on your system!
-
-Jekyll requires a Ruby version 2.5.0 or greater.
-Below are quick start steps, but you may want to refer to Jekyll's official [installation guides](https://jekyllrb.com/docs/installation/) for tips.
-
-- **Windows:** Use [RubyInstaller for Windows](https://rubyinstaller.org/){:target="_blank" rel="noopener"}.
-    - First, [download](https://rubyinstaller.org/downloads/) the suggested stable version "WITH DEVKIT" (as of this writing, Ruby+Devkit 3.1.x (x64)) and double click to install. Use the install defaults, but make sure "Add Ruby executables to your PATH" is checked. On the final step, ensure the box to start the MSYS2 DevKit is checked.
-    - Second, the installer will open a terminal window with options to install MSYS2 DevKit components. Choose option 3, "MSYS2 and MINGW development toolchain", or simply press ENTER to install all the necessary dependencies. The installer will proceed through a bunch of steps outputting a bunch of text in the terminal window. *Eventually*, this will conclude and you should see a message with the word `success` in it. If the window doesn't close, press `Enter` again or manually close it. (The installer can be restarted by typing `ridk install` into a command prompt).
-- **Mac:** OS X has a version of Ruby installed by default. Check the version with `ruby -v`. If it is > 2.5.0 you can use the system Ruby. However, a newer version can be installed using [Homebrew](https://brew.sh/) or a manager such as [rbenv](https://github.com/rbenv/rbenv). Check the official Jekyll [Mac install docs](https://jekyllrb.com/docs/installation/#macOS) for tips.
-- **Linux:** Although many distros come with a system Ruby installed or a repository version, we suggest using a version manager such as [rbenv](https://github.com/rbenv/rbenv) or [RVM](http://rvm.io/). This will ensure you have an up to date Ruby version and a clean environment separated from your system Ruby. You will also need the build tools Make and GCC, on Ubuntu get them with `sudo apt install build-essential`. 
-
-### Install Jekyll
-
-Jekyll is a Gem, a software package installed via Ruby's management system called RubyGems (similar to Python's Pip). 
-Open a terminal and type:
-`gem install jekyll bundler`
-
-This will take a minute as Gem installs all the dependencies and builds extensions. 
-
-### Install Text Editor
-
-When working with code you should have a good text editor.
-Windows notepad does not handle UTF-8 encoding or UNIX line endings that are standard for cross platform applications. 
-For basic editing, Windows [Notepad++](https://notepad-plus-plus.org/), Mac TextEdit, or Linux Gedit are sufficient.
-However, a more complete code editor will be helpful for managing Jekyll projects.
-The current most popular open source cross platform option is [Visual Studio Code](https://code.visualstudio.com/).
+If you've never used GitHub before, check out GitHub's [Hello World guide](https://guides.github.com/activities/hello-world/), for a quick introduction to creating repositories, making branches, and editing files. You can also check out the more extensive [GitHub Learning Lab](https://lab.github.com/).
