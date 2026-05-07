@@ -69,14 +69,43 @@ For practical purposes: the tools we'll be using today, ArcGIS Online and Leafle
 **Quick activity:** visit [The True Size of...](https://thetruesize.com/){:target="_blank" rel="noopener"}. Enter a state or country into the search bar, then click and drag its shape north and south to see how it would look in Web Mercator if it were located in a different part of the world.
 
 You can change the projection you use in ArcGIS Online, but you shouldn't unless it's for a specific, good reason. 
+
 ---
 
 ## GIS and Web Mapping Tools
+
+Tools for geospatial analysis fall into two broad categories.
+
+**Desktop GIS apps** are best when you need to do complex analysis and data processing.
+- [ArcGIS Pro](https://www.esri.com/en-us/arcgis/products/arcgis-pro/overview){:target="_blank" rel="noopener"}: The industry standard. Proprietary, but free for ISU students through the [ISU GIS Facility.](https://www.gis.iastate.edu/services/software/arcgis-pro-installation-and-licensing/){:target="_blank" rel="noopener"}
+- [QGIS](https://qgis.org/){:target="_blank" rel="noopener"}: A free and open source alternative to ArcGIS Pro.
+
+**Web mapping tools** are best for creating, publishing, and sharing interactive maps.
+- [ArcGIS Online](https://www.arcgis.com){:target="_blank" rel="noopener"}: The most feature-rich web-mapping platform. ISU students have free accounts through the [ISU GIS Facility.](isugisf.maps.arcgis.com){:target="_blank" rel="noopener"}
+- [Leaflet](https://leafletjs.com/){:target="_blank" rel="noopener"}: lightweight JavaScript library for creating maps.
 
 ---
 
 ## How (not) to lie with maps
 
+A map is a representation of specific information about a specific part of the world. It's important to keep that in mind: it's a _representation,_ not an objective, complete picture. Map creators must make decisions about what data is included, what data is excluded, and how it's all displayed. 
+
+It's easy to make a bad map. Poor color choices, too much (or to little) data, and improper classification of data can confuse or mislead (intentionally or unintentionally). 
+
+When making a map, continually ask yourself these questions, and use your answers to continuously improve:
+- What am I trying to argue?
+- Does the data displayed on the map make that argument well?
+- Does my color scheme enhance or detract from my argument?
+- Could my argument be misunderstood?
+
 ---
 
 ## What we'll be building today
+
+For the rest of this session, I'll demo two tools and then you'll get hands-on experience building maps with them. 
+
+**Activity 1: ArcGIS Online Map Viewer**
+Find pre-existing data (and create your own), style it on a map, and publish it to ArcGIS Online.
+
+**Activity 2: Leaflet (with a template)**
+Using a pre-made GitHub template, create a simple, interactive map with Leaflet and host it on a GitHub Pages site.
