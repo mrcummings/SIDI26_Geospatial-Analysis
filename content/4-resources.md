@@ -1,5 +1,5 @@
 ---
-title: Reference & Resources
+title: Resources
 nav: Resources
 ---
 <svg xmlns="http://www.w3.org/2000/svg" width="220" height="220" fill="currentColor" viewBox="0 0 16 16" style="display:block;margin:1rem auto 1.5rem auto;">

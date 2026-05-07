@@ -72,20 +72,6 @@ You can change the projection you use in ArcGIS Online, but you shouldn't unless
 
 ---
 
-## GIS and Web Mapping Tools
-
-Tools for geospatial analysis fall into two broad categories.
-
-**Desktop GIS apps** are best when you need to do complex analysis and data processing.
-- [ArcGIS Pro](https://www.esri.com/en-us/arcgis/products/arcgis-pro/overview){:target="_blank" rel="noopener"}: The industry standard. Proprietary, but free for ISU students through the [ISU GIS Facility.](https://www.gis.iastate.edu/services/software/arcgis-pro-installation-and-licensing/){:target="_blank" rel="noopener"}
-- [QGIS](https://qgis.org/){:target="_blank" rel="noopener"}: A free and open source alternative to ArcGIS Pro.
-
-**Web mapping tools** are best for creating, publishing, and sharing interactive maps.
-- [ArcGIS Online](https://www.arcgis.com){:target="_blank" rel="noopener"}: The most feature-rich web-mapping platform. ISU students have free accounts through the [ISU GIS Facility.](isugisf.maps.arcgis.com){:target="_blank" rel="noopener"}
-- [Leaflet](https://leafletjs.com/){:target="_blank" rel="noopener"}: lightweight JavaScript library for creating maps.
-
----
-
 ## How (not) to lie with maps
 
 A map is a representation of specific information about a specific part of the world. It's important to keep that in mind: it's a _representation,_ not an objective, complete picture. Map creators must make decisions about what data is included, what data is excluded, and how it's all displayed. 
@@ -97,6 +83,20 @@ When making a map, continually ask yourself these questions, and use your answer
 - Does the data displayed on the map make that argument well?
 - Does my color scheme enhance or detract from my argument?
 - Could my argument be misunderstood?
+
+---
+
+## GIS and Web Mapping Tools
+
+Tools for geospatial analysis fall into two broad categories.
+
+**Desktop GIS apps** are best when you need to do complex analysis and data processing.
+- [ArcGIS Pro](https://www.esri.com/en-us/arcgis/products/arcgis-pro/overview){:target="_blank" rel="noopener"}: The industry standard. Proprietary, but free for ISU students through the [ISU GIS Facility.](https://www.gis.iastate.edu/services/software/arcgis-pro-installation-and-licensing/){:target="_blank" rel="noopener"}
+- [QGIS](https://qgis.org/){:target="_blank" rel="noopener"}: A free and open source alternative to ArcGIS Pro.
+
+**Web mapping tools** are best for creating, publishing, and sharing interactive maps.
+- [ArcGIS Online](https://www.arcgis.com){:target="_blank" rel="noopener"}: The most feature-rich web-mapping platform. ISU students have free accounts through the [ISU GIS Facility.](isugisf.maps.arcgis.com){:target="_blank" rel="noopener"}
+- [Leaflet](https://leafletjs.com/){:target="_blank" rel="noopener"}: lightweight JavaScript library for creating maps.
 
 ---
 
