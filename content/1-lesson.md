@@ -66,7 +66,7 @@ One of the most fundamental problems in geography is that the earth is a sphere,
 
 For practical purposes: the tools we'll be using today, ArcGIS Online and Leaflet, use the Web Mercator projection. This projection is very good at showing accurate shapes at the local level, but in a global view it significantly distorts and enlarges shapes closer to the poles. All projections have their pros and cons, and Web Mercator is the standard for web mapping for a reason, but it's important to recognize its weak points. 
 
-**Quick activity:** visit [The True Size of...](https://thetruesize.com/){:target="_blank" rel="noopener"}. Enter a state or country into the search bar, then click and drag its shape north and south to see how it would look in Web Mercator if it were located in a different part of the world.
+**Quick activity:** visit [The True Size of...](https://thetruesize.com/){:target="_blank" rel="noopener"} Enter a state or country into the search bar, then click and drag its shape north and south to see how it would look in Web Mercator if it were located in a different part of the world.
 
 You can change the projection you use in ArcGIS Online, but you shouldn't unless it's for a specific, good reason. 
 
@@ -108,4 +108,4 @@ For the rest of this session, I'll demo two tools and then you'll get hands-on e
 Find pre-existing data (and create your own), style it on a map, and publish it to ArcGIS Online.
 
 **Activity 2: Leaflet (with a template)**
-Using a pre-made GitHub template, create a simple, interactive map with Leaflet and host it on a GitHub Pages site.
+Using a pre-made GitHub template, create a simple, interactive map with Leaflet and host it on a GitHub Pages site

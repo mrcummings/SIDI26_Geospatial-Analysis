@@ -13,4 +13,4 @@ In order to successfully participate in this morning's lesson, you must have and
 - [Google Drive Account](https://workspace.google.com/products/drive/){:target="_blank" rel="noopener"}
 - [GitHub Account](https://github.com/){:target="_blank" rel="noopener"}
 
-If you've never used GitHub before, check out GitHub's [Hello World guide](https://guides.github.com/activities/hello-world/), for a quick introduction to creating repositories, making branches, and editing files. You can also check out the more extensive [GitHub Learning Lab](https://lab.github.com/).
+If you've never used GitHub before, check out GitHub's [Hello World guide](https://guides.github.com/activities/hello-world/){:target="_blank" rel="noopener"}, for a quick introduction to creating repositories, making branches, and editing files.
