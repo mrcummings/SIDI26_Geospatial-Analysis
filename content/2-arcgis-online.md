@@ -16,9 +16,9 @@ In this activity, you will learn the basics of how to create a map using ArcGIS 
 - Save and share your map
 - Generate HTML embed code and export static images to use your map outside of ArcGIS Online
 
-## Getting Started
-
 ---
+
+## Getting Started
 
 As an Iowa State University student, you have free access to ArcGIS Online through the [ISU GIS Facility](https://www.gis.iastate.edu/){:target="_blank" rel="noopener"}. In order to access your free account, navigate to the [ISU ArcGIS Online Homepage](https://isugisf.maps.arcgis.com/){:target="_blank" rel="noopener"}.
 
@@ -80,7 +80,7 @@ _Question:_ take a look at the county-level map. What outliers do you see in the
 
 You can easily create data for point-based layers yourself. 
 
-Open this [data spreadsheet](https://docs.google.com/spreadsheets/d/1p4vFyzjrwdReQVBerjfqoTxtPEJUw5guMqanVKZM284/edit?usp=sharing){:target="_blank" rel="noopener"}.
+Open this [data spreadsheet](https://docs.google.com/spreadsheets/d/1HO7PcBqLsqyDz2E329fpN65MbpiBELXncoE0p5wqU5I/edit?usp=sharing){:target="_blank" rel="noopener"}.
 
 This dataset contains information about universities that are members of the Big 12 and Big 10 conferences. Crucially, exact locations of each university are represented in the dataset by _latitude_ and _longitude_ variables. 
 
