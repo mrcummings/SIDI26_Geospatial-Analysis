@@ -1,7 +1,7 @@
 ---
 title: "Activity: Leaflet"
 nav: Leaflet
-topics: 
+topics: Leaflet; GitHub Pages; Web Mapping
 ---
 <svg xmlns="http://www.w3.org/2000/svg" width="220" height="220" fill="currentColor" viewBox="0 0 16 16" style="display:block;margin:1rem auto 1.5rem auto;">
   <path d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0M3.668 2.501l-.288.646a.847.847 0 0 0 1.479.815l.245-.368a.81.81 0 0 1 1.034-.275.81.81 0 0 0 .724 0l.261-.13a1 1 0 0 1 .775-.05l.984.34q.118.04.243.054c.784.093.855.377.694.801-.155.41-.616.617-1.035.487l-.01-.003C8.274 4.663 7.748 4.5 6 4.5 4.8 4.5 3.5 5.62 3.5 7c0 1.96.826 2.166 1.696 2.382.46.115.935.233 1.304.618.449.467.393 1.181.339 1.877C6.755 12.96 6.674 14 8.5 14c1.75 0 3-3.5 3-4.5 0-.262.208-.468.444-.7.396-.392.87-.86.556-1.8-.097-.291-.396-.568-.641-.756-.174-.133-.207-.396-.052-.551a.33.33 0 0 1 .42-.042l1.085.724c.11.072.255.058.348-.035.15-.15.415-.083.489.117.16.43.445 1.05.849 1.357L15 8A7 7 0 1 1 3.668 2.501"/>
@@ -15,7 +15,7 @@ By the end, you will have learned how to:
 - Create and edit a GitHub repository
 - Use GitHub Pages to make a live website from a repository
 - Use a GitHub Leaflet template, alongside a Google Sheets data file, to create a custom map
-- Add and customize the points that appear on your
+- Add and customize the points that appear on your map
 - Understand the principles behind adding data layers including lines and polygons to your map.
 
 ## Getting started
@@ -81,7 +81,7 @@ Return to your Google Sheet. You'll notice that this Sheet consists of six tabs:
 
 On this tab, you can edit basic info about the map and its settings. **Do not** delete or rename the cells in the first row and first column, as this will break your map. You will be making edits in the column labeled **Customize**. The column labeled **Setting** tells you what exactly you're editing.
 
-The **Options tab** is divided into color-coded categories for diffent types of options. Make the following changes in the **Map Info** section:
+The **Options tab** is divided into color-coded categories for different types of options. Make the following changes in the **Map Info** section:
 
 1. Change the value of **Map Title** to whatever you'd like. 
 2. Replace the **Map Subtitle** with your own, or delete it to leave it blank.
@@ -115,9 +115,9 @@ To add your data, fill in the following information in each field:
     - Line breaks: insert `<br>` anywhere you want two lines of text to be separated.
     - Hyperlinks: insert `<a href='https://digital.lib.iastate.edu/' target='_blank'>Digital Scholarship and Initiatives</a>` replacing the URL and link text with your own.
 9. **Location:** This field isn't strictly necessary and isn't used anywhere in the map, but is a helpful reference for you. Use an address or a place name that describes exactly where this point is. 
-10. **Latitude** and **Longitude:** These coordinates will tell Leaflet exactly where to place your map. You can find coordinates on [Google Maps](https://www.google.com/maps){:target="_blank" rel="noopener"} by searching for a location, then right-clicking its pin. You can also find coordinates by right-clicking anywhere on the map. Clicking on the coordinates that appear will copy them. Remember to separate the latitude (first) and longitude (second) in your data sheet.
+10. **Latitude** and **Longitude:** These coordinates will tell Leaflet exactly where to place a point on your map. You can find coordinates on [Google Maps](https://www.google.com/maps){:target="_blank" rel="noopener"} by searching for a location, then right-clicking its pin. You can also find coordinates by right-clicking anywhere on the map. Clicking on the coordinates that appear will copy them. Remember to separate the latitude (first) and longitude (second) in your data sheet.
 
-Take a few minutes to some points to the map. If you can't think of any locations, or you don't want to hunt down coordinates right now, feel free to use the locations in the [Big 12 and 10 Institutions Sheet](https://docs.google.com/spreadsheets/d/1HO7PcBqLsqyDz2E329fpN65MbpiBELXncoE0p5wqU5I/edit?usp=sharing){:target="_blank" rel="noopener"} from our ArcGIS Online activity. 
+Take a few minutes to add some points to the map. If you can't think of any locations, or you don't want to hunt down coordinates right now, feel free to use the locations in the [Big 12 and 10 Institutions Sheet](https://docs.google.com/spreadsheets/d/1HO7PcBqLsqyDz2E329fpN65MbpiBELXncoE0p5wqU5I/edit?usp=sharing){:target="_blank" rel="noopener"} from our ArcGIS Online activity. 
 
 When you're done, return to the **Options** tab. Under **Point Map Controls**, change the **Point Legend Title** to something fitting for the points you've added. 
 
@@ -127,7 +127,7 @@ Refresh your site to see the progress you've made. You may notice that the map _
 
 This map doesn't just contain point data. There are also lines, representing trails and transit routes, and polygons, showing population density by county in East Coast states. 
 
-Leaflet, and other open source mapping tools, use an open, semi-structured data format called **GeoJSON** to represent points and polygons. You can find GeoJSON files online, but they aren't always as easy to find as other geospatial data formats like shapefiles (.shp) and KML files. 
+Leaflet, and other open source mapping tools, use an open, semi-structured data format called **GeoJSON** to represent lines and polygons (it can also represent points, but you don't need to use it for those). You can find GeoJSON files online, but they aren't always as easy to find as other geospatial data formats like shapefiles (.shp) and KML files. 
 
 The sample data on this map includes three GeoJSON files for lines and one for polygons. You can access these in the **geodata** folder of your repository. 
 
@@ -135,7 +135,7 @@ In your Google Sheet, move to the **Polylines** tab. Here you can see how the li
 
 Now, move to the **Polygons** tab. This tab is a bit more complex, with space to include information about how the data assigned to each polygon in your GeJSON files is represented on the map. 
 
-If you don't wish to use any lines at all in your map, simply delete all everything _except row 1_ from the **Polylines** tab. 
+If you don't wish to use any lines at all in your map, simply delete everything _except row 1_ from the **Polylines** tab. 
 
 If you don't wish to use any polygons in your map, delete everything in the **Customize** column of the **Polygons** tab _except the word "Customize" in row 1_.
 

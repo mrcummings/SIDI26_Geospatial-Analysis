@@ -56,7 +56,7 @@ In vector data, attributes are often represented by changing the colors or sizes
 
 In rasters, the color of each pixel is its value: for example, an elevation map may use a grayscale color scheme where white represents the highest points, black represents the lowest, and varying shades of gray are used in between.
 
-In addition to the data you place on the map, most maps also include a **basemap**, or a backround layer that serves as a helpful visual reference for your audience.
+In addition to the data you place on the map, most maps also include a **basemap**, or a background layer that serves as a helpful visual reference for your audience.
 
 ---
 
@@ -76,7 +76,7 @@ You can change the projection you use in ArcGIS Online, but you shouldn't unless
 
 A map is a representation of specific information about a specific part of the world. It's important to keep that in mind: it's a _representation,_ not an objective, complete picture. Map creators must make decisions about what data is included, what data is excluded, and how it's all displayed. 
 
-It's easy to make a bad map. Poor color choices, too much (or to little) data, and improper classification of data can confuse or mislead (intentionally or unintentionally). 
+It's easy to make a bad map. Poor color choices, too much (or too little) data, and improper classification of data can confuse or mislead (intentionally or unintentionally). 
 
 When making a map, continually ask yourself these questions, and use your answers to continuously improve:
 - What am I trying to argue?
@@ -95,7 +95,7 @@ Tools for geospatial analysis fall into two broad categories.
 - [QGIS](https://qgis.org/){:target="_blank" rel="noopener"}: A free and open source alternative to ArcGIS Pro.
 
 **Web mapping tools** are best for creating, publishing, and sharing interactive maps.
-- [ArcGIS Online](https://www.arcgis.com){:target="_blank" rel="noopener"}: The most feature-rich web-mapping platform. ISU students have free accounts through the [ISU GIS Facility.](isugisf.maps.arcgis.com){:target="_blank" rel="noopener"}
+- [ArcGIS Online](https://www.arcgis.com){:target="_blank" rel="noopener"}: The most feature-rich web-mapping platform. ISU students have free accounts through the [ISU GIS Facility.](https://isugisf.maps.arcgis.com/){:target="_blank" rel="noopener"}
 - [Leaflet](https://leafletjs.com/){:target="_blank" rel="noopener"}: lightweight JavaScript library for creating maps.
 
 ---
@@ -105,7 +105,9 @@ Tools for geospatial analysis fall into two broad categories.
 For the rest of this session, I'll demo two tools and then you'll get hands-on experience building maps with them. 
 
 **Activity 1: ArcGIS Online Map Viewer**
+
 Find pre-existing data (and create your own), style it on a map, and publish it to ArcGIS Online.
 
 **Activity 2: Leaflet (with a template)**
+
 Using a pre-made GitHub template, create a simple, interactive map with Leaflet and host it on a GitHub Pages site

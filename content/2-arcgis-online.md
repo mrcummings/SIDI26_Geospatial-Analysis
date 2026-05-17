@@ -1,7 +1,7 @@
 ---
 title: "Activity: ArcGIS Online"
 nav: ArcGIS
-topics:
+topics: ArcGIS; Web Mapping; Layers; Symbology
 ---
 <svg xmlns="http://www.w3.org/2000/svg" width="220" height="220" fill="currentColor" viewBox="0 0 16 16" style="display:block;margin:1rem auto 1.5rem auto;">
   <path d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0M4.882 1.731a.48.48 0 0 0 .14.291.487.487 0 0 1-.126.78l-.291.146a.7.7 0 0 0-.188.135l-.48.48a1 1 0 0 1-1.023.242l-.02-.007a1 1 0 0 0-.462-.04 7 7 0 0 1 2.45-2.027m-3 9.674.86-.216a1 1 0 0 0 .758-.97v-.184a1 1 0 0 1 .445-.832l.04-.026a1 1 0 0 0 .152-1.54L3.121 6.621a.414.414 0 0 1 .542-.624l1.09.818a.5.5 0 0 0 .523.047.5.5 0 0 1 .724.447v.455a.8.8 0 0 0 .131.433l.795 1.192a1 1 0 0 1 .116.238l.73 2.19a1 1 0 0 0 .949.683h.058a1 1 0 0 0 .949-.684l.73-2.189a1 1 0 0 1 .116-.238l.791-1.187A.45.45 0 0 1 11.743 8c.16 0 .306.084.392.218.557.875 1.63 2.282 2.365 2.282l.04-.001a7.003 7.003 0 0 1-12.658.905Z"/>
@@ -62,11 +62,11 @@ There are four things to look for when evaluating a layer in ArcGIS Online.
 
  At the top of the **Add layer** pane, click on **ArcGIS Online**. If you select the **Living Atlas** option, you can search for only data that has been included in this collection. This is a great place to start searching for any data. 
 
- In the search bar, type in **ACS population**. Find the layer titled **ACS Population (Latest). 
+ In the search bar, type in **ACS population**. Find the layer titled **"ACS Population (Latest)".** 
  
  _Question:_ Examine the information you can see about this layer. Can you trust this dataset? Why or why not?
 
- Click the **add** button for this layer. Two things will happen. First, the data will automatically display on the map. Second, the **Properties** pane will open on the right side of your screen. click the **back arrow** net to **Add layer** in the pane on the left side. In the **Layers** pane, you can see that a layer called **ACS Population (Latest) has been added to your map. Click the arrow next to the layer title to see that there's actually three sub-layers in this dataset representing data at the state, county, and census tract levels. Zoom in on the map to see data displayed at each level.
+ Click the **add** button for this layer. Two things will happen. First, the data will automatically display on the map. Second, the **Properties** pane will open on the right side of your screen. click the **back arrow** net to **Add layer** in the pane on the left side. In the **Layers** pane, you can see that a layer called **ACS Population (Latest)** has been added to your map. Click the arrow next to the layer title to see that there's actually three sub-layers in this dataset representing data at the state, county, and census tract levels. Zoom in on the map to see data displayed at each level.
 
  In the **Layers pane**, click on the three dots next to the State layer. Select **Show table**. This is the actual structured dataset that the data on the map is based on. Scroll through the data to see what variables are included. Close the table by clicking the X at the top right of the **Table pane** when you're done. 
 
@@ -118,7 +118,7 @@ _On your own:_ Try two or three different styles. Be prepared to answer these qu
 - Do you think any of these represents your data better or worse? 
 - Do some work better visually with the other data layer on the map than others?
 
-Once you've selected a style, you can click on **Style options** to customize the look of your map further. Your **Theme** will determine how colors are applied to the data. **Symbol style** allows you to choose a color pallette. **Data range** lets you adjust the values assigned to each color in your gradient. **Use caution when adjusting this range!** It's very easy to create a misleading map by moving these sliders too far in one direction or another.
+Once you've selected a style, you can click on **Style options** to customize the look of your map further. Your **Theme** will determine how colors are applied to the data. **Symbol style** allows you to choose a color palette. **Data range** lets you adjust the values assigned to each color in your gradient. **Use caution when adjusting this range!** It's very easy to create a misleading map by moving these sliders too far in one direction or another.
 
 When you're happy with how this layer looks, hit **Done**.
 
@@ -130,7 +130,7 @@ You may have noticed by now that if you click on a county on this map, a pop-up 
 
 These pop-ups are highly customizable. To edit the pop-ups for our universities layer, click on that layer in the **Layers pane** and then select **Pop-ups** in the **Settings toolbar**. 
 
-In the **Pop-ups pane** that opens on the right, click on **Title**. The title consists of two parts: the name of the layer with a colon, and the word "name" in curly brackets. These curly brackets allow you to call the variables of specific variables from your data tables. Take a look at the title of one of your pop-ups: you can see that it's pulling in the name of that specific university in the title field. 
+In the **Pop-ups pane** that opens on the right, click on **Title**. The title consists of two parts: the name of the layer with a colon, and the word "name" in curly brackets. These curly brackets allow you to call the values of specific variables from your data tables. Take a look at the title of one of your pop-ups: you can see that it's pulling in the name of that specific university in the title field. 
 
 We can use this curly bracket syntax to our advantage to create our own custom pop-ups. Find **Fields list**, click the three dots, and select **delete**. This was the field that defined the data table in our pop-up. Let's replace it by clicking **+ Add content** and choosing **Text**. 
 
