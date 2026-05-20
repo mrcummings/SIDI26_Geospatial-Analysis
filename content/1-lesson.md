@@ -91,7 +91,7 @@ When making a map, continually ask yourself these questions, and use your answer
 Tools for geospatial analysis fall into two broad categories.
 
 **Desktop GIS apps** are best when you need to do complex analysis and data processing.
-- [ArcGIS Pro](https://www.esri.com/en-us/arcgis/products/arcgis-pro/overview){:target="_blank" rel="noopener"}: The industry standard. Proprietary, but free for ISU students through the [ISU GIS Facility.](https://www.gis.iastate.edu/services/software/arcgis-pro-installation-and-licensing/){:target="_blank" rel="noopener"}
+- [ArcGIS Pro](https://www.esri.com/en-us/arcgis/products/arcgis-pro/overview){:target="_blank" rel="noopener"}: The industry standard. Proprietary, but ISU students can download for free at the [ISU GIS Facility's ArcGIS Pro installation page.](https://www.gis.iastate.edu/services/software/arcgis-pro-installation-and-licensing/){:target="_blank" rel="noopener"}
 - [QGIS](https://qgis.org/){:target="_blank" rel="noopener"}: A free and open source alternative to ArcGIS Pro.
 
 **Web mapping tools** are best for creating, publishing, and sharing interactive maps.

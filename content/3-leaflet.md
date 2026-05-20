@@ -173,6 +173,6 @@ Only do this step when you're _absolutely certain_ that you no longer want to ed
 
 ---
 
-## Credits
+## Acknowledgements
 
-This activity is heavily based on _Leaflet Maps with Google Sheets,_ part of Chapter 12 of Hands-On Data Visualization by Jack Dougherty & Ilya Ilyankou. 
+This activity is based on [_Leaflet Maps with Google Sheets,_](https://handsondataviz.org/leaflet-maps-with-google-sheets.html){:target="_blank" rel="noopener"} part of Chapter 12 of Hands-On Data Visualization by Jack Dougherty & Ilya Ilyankou. 
